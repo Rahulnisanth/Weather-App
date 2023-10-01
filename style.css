@@ -1,0 +1,42 @@
+section {
+    background-image: url('images/bg_app.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span {
+    font-size: 18px !important;
+    color: Black !important;
+}
+
+.search {
+    text-align: center;
+    padding: 10px 0px 5px 0px;
+}
+
+.search input {
+    padding: 10px 10px 10px 20px;
+    height: 40px;
+    flex: 1;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-right: 10px;
+    border: 2px solid black;
+    width: 75%;
+}
+
+.search button {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: -20px;
+    border: 2px solid black;
+}
+
+.error {
+    display: none;
+}
+
+.weather {
+    display: none;
+}

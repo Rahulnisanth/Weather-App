@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Weather-Applet</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="images/clouds.png">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/acc89a4fb1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Main-Section -->
+    <section class="vh-100">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-md-8 col-lg-6 col-xl-4">
+                    <div class="card" style="color: #4B515D; border-radius: 20px;">
+                        <div class="card-body p-4">
+
+                            <!-- Search Module -->
+                            <div class="search">
+                                <input type="text" placeholder="Enter the city name">
+                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <div class="error" style="text-align: left;">
+                                    <p style="margin: 10px 0px 0px 30px ;">Enter a valid location</p>
+                                </div>
+                            </div>
+
+                            <!-- Weather-Module -->
+                            <div class="weather" style="padding-top: 20px;">
+                                <div class="d-flex">
+                                    <h5 class="flex-grow-1">
+                                        <i class="fa-solid fa-message" style="padding-right:8px;"></i>
+                                        <span class="place" style="font-size: 25px !important;">Warsaw</span>
+                                    </h5>
+                                    <h5><i class="fa-regular fa-eye"></i><span class="visibility"
+                                            style="padding-left: 8px;">
+                                        </span></h5>
+                                </div>
+                                <div class="d-flex flex-column text-center mt-5 mb-4">
+                                    <h6 class="display-4 mb-0 font-weight-bold" style="color: #1C2331;">
+                                        <span class="temp"
+                                            style="font-size: 60px !important; font-weight: bold !important;color: #4B515D !important">
+                                            32
+                                        </span>
+                                        <i class="fa-solid fa-temperature-high"
+                                            style="color: #4B515D; padding-left: 8px;"></i>
+                                    </h6>
+                                    <span class="condition" style="color: #868B94">Stormy</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-grow-1" style="font-size: 1rem;padding-top: 10px;">
+                                        <div><i class="fa-solid fa-wind"></i>
+                                            <span class="wind-speed" style="padding-left: 8px;">
+                                                40 km/h
+                                            </span>
+                                            <p>Wind Speed</p>
+                                        </div>
+                                        <div><i class="fa-solid fa-water"></i>
+                                            <span class="humidity" style="padding-left: 8px;">
+                                                84 %
+                                            </span>
+                                            <p>Humidity</p>
+                                        </div>
+                                    </div>
+                                    <div class="weather-icon">
+                                        <!-- weather-icon -->
+                                        <i style="font-size: 90px;" class=""></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Main-Section End -->
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <!-- JavaScript Link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
